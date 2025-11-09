@@ -31,7 +31,7 @@ public class ObjectDetector : MonoBehaviour
 
                 else if (hit.transform.CompareTag("Tower"))
                 {
-                    towerDataViewer.OnPanel();
+                    towerDataViewer.OnPanel(hit.transform);
                 }
             }
         }
